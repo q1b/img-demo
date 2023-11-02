@@ -7,10 +7,10 @@ export default component$(() => {
   return (
     <>
       <div class="w-64 h-44 bg-violet-400">
-        <Cloudimage width={400} layout="constrained" height={600} src="f38ifyhnrwwy6489aboe" />
+        <Cloudimage width={400} layout="constrained" objectFit="cover" height={600} src="f38ifyhnrwwy6489aboe" />
       </div>
-      <Cloudimage layout="fullWidth" width={300} height={800} src="f38ifyhnrwwy6489aboe" />
-      <Cloudimage layout="fixed" width={300} height={800} src="t9nbj3plnovuja5brnlj" />
+      <Cloudimage layout="fullWidth" width={300} objectFit="contain" height={800} src="f38ifyhnrwwy6489aboe" />
+      <Cloudimage layout="fixed" width={300} height={800} src="cld-sample-5" />
       <Image />
     </>
   );
